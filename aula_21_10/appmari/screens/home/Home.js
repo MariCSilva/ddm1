@@ -19,11 +19,11 @@ export default function Login ({ navigation }) {
 
             <Text style={styles.titulo}>Home</Text>
 
-            <Text style={styles.label}>Digite o e-mail</Text>
+            <Text style={styles.label}>Site mari</Text>
 
-            <TextInput
+            {/* <TextInput
                 nativeID="email"
-                placeholder="fulano@gmail.com"
+                placeholder="xxxxx@email.com"
                 style={styles.input}
                 keyboardType="email-address"
                 autoCapitalize="none"
@@ -35,7 +35,7 @@ export default function Login ({ navigation }) {
                 placeholder="Digite sua senha"
                 style={styles.input}
                 secureTextEntry={true}
-            />
+            /> */}
 
             {/* <View style={styles.botao}>
                 <Button

@@ -23,7 +23,7 @@ export default function Login ({ navigation }) {
 
             <TextInput
                 nativeID="email"
-                placeholder="fulano@gmail.com"
+                placeholder="xxxx@gmail.com"
                 style={styles.input}
                 keyboardType="email-address"
                 autoCapitalize="none"
