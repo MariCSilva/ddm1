@@ -12,36 +12,38 @@ export default function Login ({ navigation }) {
 
             <Image
                 source={{
-                    uri: 'https://reactive.dev/docs/assets/p_cat1.pgn'
+                    uri: 'https://static.wikia.nocookie.net/nacional-fortitude/images/5/5f/Klonoa.png/revision/latest/scale-to-width-down/580?cb=20250704233856&path-prefix=pt-br'
                 }}
                 style={styles.imagem}
             />
 
-            <Text style={styles.titulo}>Login</Text>
+            <Text style={styles.titulo}>Klonoa</Text>
 
-            <Text style={styles.label}>Digite o e-mail</Text>
+            <Text style={styles.label}>Saiba mais sobre Klonoa!!!</Text>
 
-            <TextInput
+            <Text style={styles.texto}>Veja informações sobre os personagens e sobre os jogos!</Text>
+
+            {/* <TextInput
                 nativeID="email"
                 placeholder="xxxx@gmail.com"
                 style={styles.input}
                 keyboardType="email-address"
                 autoCapitalize="none"
-            />
+            /> */}
 
-            <Text style={styles.label}>Senha</Text>
+            {/* <Text style={styles.label}>Senha</Text>
 
             <TextInput
                 placeholder="Digite sua senha"
                 style={styles.input}
                 secureTextEntry={true}
-            />
+            /> */}
 
             <View style={styles.botao}>
                 <Button
-                    title="Entrar"
+                    title="Saber mais"
                     onPress={() => navigation.navigate('Home')}
-                    color="#007AFF"
+                    color="#992bf3"
                 />
             </View>
         </View>

@@ -4,12 +4,12 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         padding: 25,
-        backgroundColor: '#f5f5f5',
+        backgroundColor: '#17527c',
     },
 
     imagem: {
-        width: 150,
-        height: 150,
+        width: 250,
+        height: 250,
         alignSelf: 'center',
         marginBottom: 20,
     },
@@ -19,14 +19,23 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         textAlign: 'center',
         marginBottom: 30,
-        color: '#333',
+        color: '#e9ff22',
     },
 
     label: {
         fontSize: 16,
         fontWeight: 'bold',
+        textAlign: 'center',
         marginBottom: 5,
-        color: '#333',
+        color: '#ffffff',
+    },
+
+    texto: {
+        fontSize: 16,
+        // fontWeight: 'bold',
+        textAlign: 'center',
+        marginBottom: 5,
+        color: '#ffffff',
     },
 
     input: {

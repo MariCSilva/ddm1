@@ -6,44 +6,48 @@ export default function Login ({ navigation }) {
 
     return(
 
-        <View style={styles.container}>
+        <View style={styles.container}>            
 
+            <Text style={styles.titulo}>Home</Text>
 
+            <Text style={styles.label}>Leia sobre os jogos</Text>
 
             <Image
                 source={{
-                    uri: 'https://www.flaticon.com/br/icone-gratis/do-utilizador_1077114'
+                    uri: 'https://gamehall.com.br/wp-content/uploads/2022/07/klonoa_capa.jpg'
                 }}
                 style={styles.imagem}
             />
 
-            <Text style={styles.titulo}>Home</Text>
+            {/* <Text style={styles.texto}>Veja informações sobre os personagens, sobre os jogos e um quiz!</Text> */}
 
-            <Text style={styles.label}>Site mari</Text>
+            <View style={styles.botao}>
+                <Button
+                    title="Jogos"
+                    onPress={() => navigation.navigate('Jogos')}
+                    color="#992bf3"
+                />
+            </View>
 
-            {/* <TextInput
-                nativeID="email"
-                placeholder="xxxxx@email.com"
-                style={styles.input}
-                keyboardType="email-address"
-                autoCapitalize="none"
+            <Text style={styles.label}>Conheça os presonagens</Text>
+
+            <Image
+                source={{
+                    uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjSGjrbHWzc5FEsiVp5J_dcefGiG3nHU2U-Dp-0ZpAlkex3xx8o143tBaF&s=10'
+                }}
+                style={styles.imagem}
             />
 
-            <Text style={styles.label}>Senha</Text>
+            {/* <Text style={styles.texto}>Veja informações sobre os personagens, sobre os jogos e um quiz!</Text> */}
 
-            <TextInput
-                placeholder="Digite sua senha"
-                style={styles.input}
-                secureTextEntry={true}
-            /> */}
-
-            {/* <View style={styles.botao}>
+            <View style={styles.botao}>
                 <Button
-                    title="Entrar"
-                    onPress={() => navigation.navigate('Home')}
-                    color="#007AFF"
+                    title="Personagens"
+                    onPress={() => navigation.navigate('Personagens')}
+                    color="#992bf3"
                 />
-            </View> */}
+            </View>
+
         </View>
     );
 }
