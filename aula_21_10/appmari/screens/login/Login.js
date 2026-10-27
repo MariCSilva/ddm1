@@ -2,7 +2,7 @@ import { View, Text, TextInput, Button, Image, Stylesheet } from 'react-native';
 
 import styles from './Estilo';
 
-export default fuction Login ({ navigation }) {
+export default function Login ({ navigation }) {
 
     return(
 
